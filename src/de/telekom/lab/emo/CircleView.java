@@ -62,10 +62,6 @@ public class CircleView extends RelativeLayout {
          @Override
         protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         super.onSizeChanged(w, h, oldw, oldh);
-        
-        int hahaha = this.getMeasuredWidth();
-        System.out.println(" haha haaa aaaa " +hahaha);
-        
         }
 
 
