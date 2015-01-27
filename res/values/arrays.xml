@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string-array name="updateInterval">
+        <item name="hybrid">Hybrid</item>
+        <item name="normal">Normal</item>
+        <item name="sattelite">Sattelite</item>
+        <item name="terrain">Terrain</item>
+    </string-array>
+    
+    <string-array name="updateIntervalValues">
+        <item name="hybrid">1</item>
+        <item name="normal">2</item>
+        <item name="sattelite">3</item>
+        <item name="terrain">4</item>
+    </string-array>
+    
+    <string-array name="clearmapsettings" >
+        <item name="no">No</item>
+        <item name="yes">Yes</item>
+    </string-array>
+    
+    <string-array name="clearmapvalues">
+        <item name="no">1</item>
+        <item name="yes">2</item>
+            
+     </string-array>
+     
+        <string-array name="synchronizeValues">
+        <item name="No">1</item>
+        <item name="Yes">2</item>
+            
+     </string-array>
+
+</resources>

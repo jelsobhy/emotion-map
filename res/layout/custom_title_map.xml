@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_bg" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="left"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/imageViewRefresh"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_selection_background"
+                android:padding="4dp"
+                android:src="@drawable/menu_map_refresh" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_background" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <ProgressBar
+                    android:id="@+id/progressBar1"
+                    style="@android:style/Widget.ProgressBar.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:indeterminateOnly="true"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:gravity="right"
+            android:orientation="horizontal" >
+            
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_background" />
+            
+            <ImageButton
+                android:id="@+id/imageViewFilter"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_selection_background"
+                android:padding="4dp"
+                android:src="@drawable/ic_menu_filter" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_background" />
+            
+            
+            <ImageButton
+                android:id="@+id/imageViewSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_selection_background"
+                android:padding="4dp"
+                android:src="@drawable/ic_menu_search" />
+
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_background" />
+
+            <ImageButton
+                android:id="@+id/imageViewTimeSettings"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_selection_background"
+                android:padding="4dp"
+                android:src="@drawable/menu_map_settings_dark" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_background" />
+
+            <ImageButton
+                android:id="@+id/imageViewShare"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_selection_background"
+                android:padding="4dp"
+                android:src="@drawable/menu_map_share" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_background" />
+
+            <ImageButton
+                android:id="@+id/imageViewPrivacy"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_selection_background"
+                android:padding="4dp"
+                android:src="@drawable/menu_map_private" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_background" />
+
+            <ImageButton
+                android:id="@+id/imageViewLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_selection_background"
+                android:padding="4dp"
+                android:src="@drawable/menu_map_location_unknown" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_background" />
+        </LinearLayout>
+    </TableRow>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--
+  
+    -->
+
+    <item
+        android:id="@+id/map_menu"
+        android:icon="@drawable/menu_location_map"
+        android:title="@string/map"
+        />
+    <item
+        android:id="@+id/see_around"
+        android:title="@string/see_around"
+        />
+<!--     <item
+        android:id="@+id/clear_menu"
+        android:icon="@drawable/menu_content_discard"
+        android:title="@string/clear_map"/>
+     -->
+           <item android:id="@+id/settings_menu"
+        android:icon="@drawable/menu_action_settings"
+        android:title="@string/settings"
+        />
+
+</menu>

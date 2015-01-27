@@ -1,0 +1,7 @@
+bin/
+assets/
+gen/
+.classpath
+.project
+project.properties
+.DS_Store

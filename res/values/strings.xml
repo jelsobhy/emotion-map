@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EmoMap</string>
+    <string name="settings">Settings</string>
+    <string name="map">Map</string>
+    <string name="clear_map">Clear Map</string>
+    <string name="see_around">Around</string>
+    <string name="save">Save</string>
+    <string name="report">Report</string>
+    <string name="dialog_num_smile">Number of recorded emotions</string>
+    <string name="send_to">Share via</string>
+    <string name="main_actv_country_hint">Choose an address</string>
+    <string name="timeRangeDialog">Set Time Range</string>
+    <string name="timeRangeDialogFrom">From </string>
+    <string name="timeRangeDialogUntil">Until </string>
+    <string name="timeRangeDialogMoreDetails">\u25BC More Details</string>
+    <string name="timeRangeDialogLessDetals">\u25B2 Less Details</string>
+    <string name="timeRangeDialogSet">Set</string>
+    <string name="timeRangeDialogCancel">Cancel</string>
+
+    <string-array name="share_content">
+
+        <!-- <item>Current map screen</item> -->
+        <item>Just my emotion</item>
+    </string-array>
+
+    <string name="share_content">Share</string>
+
+    <string-array name="checkboxes">
+        <item>LOL</item>
+        <item>Happy Plus</item>
+        <item>Happy</item>
+        <item>Love it</item>
+        <item>Hoom?</item>
+        <item>Normal</item>
+        <item>Angry</item>
+        <item>Cry</item>
+        <item>Sad</item>
+    </string-array>
+
+    <string name="title_activity_dialog_emotion_broadcast">DialogEmotionBroadcast</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

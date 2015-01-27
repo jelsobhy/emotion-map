@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen
+        name="widget_me_padding">8dp</dimen>
+     <dimen name="text_size">15dp</dimen>
+     <dimen name="padding">66dp</dimen>
+     
+    
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+    <style name="MyTitleBar" parent="android:Theme">    
+    	<item name="android:windowTitleSize">45dp</item>
+         <item name="android:windowTitleBackgroundStyle">@android:color/black</item>
+    </style>
+    <style name="MapTitleBar" parent="android:Theme">    
+    	<item name="android:windowTitleSize">38dp</item>
+       <item name="android:windowTitleBackgroundStyle">@android:color/black</item>
+    </style>
+</resources> 

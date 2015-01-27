@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:robobunny="http://robobunny.com"
+    android:key="preference_screen" >
+
+        <PreferenceCategory
+            android:key="map_category"
+            android:title="Map" >
+            <ListPreference
+                android:defaultValue="Normal"
+                android:entries="@array/updateInterval"
+                android:entryValues="@array/updateIntervalValues"
+                android:key="maptypes"
+                android:summary="Choose the map type you want"
+                android:title="Map Type" />
+            <ListPreference
+                android:defaultValue="No"
+                android:entries="@array/clearmapsettings"
+                android:entryValues="@array/clearmapvalues"
+                android:key="clearmap"
+                android:summary="Choose if you want to clear the map from all your emotions"
+                android:title="Clear Map" />
+
+            <SwitchPreference
+                android:defaultValue="true"
+                android:key="clustering"
+                android:summary="Enable or disable clustering of emotions"
+                android:title="Enable Clustering" />
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:key="around_category"
+            android:title="Around" >
+            <de.telekom.lab.emo.SeekBarPreference
+                android:defaultValue="500"
+                android:key="Distance"
+                android:max="600"
+                android:summary="Distance of showing emotions"
+                android:title="Distance"
+                robobunny:min="100"
+                robobunny:unitsLeft=""
+                robobunny:unitsRight="m" />
+        </PreferenceCategory>
+    </PreferenceScreen>
