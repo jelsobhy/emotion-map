@@ -276,9 +276,9 @@ public class Emotion_BroadcastingActivity extends SherlockActivity implements
 		Intent intent = new Intent(this,
 				de.telekom.lab.emo.gui.AugmentedRealityActivity.class);
 		Bundle data = new Bundle();
-		data.putParcelable(CopyOfMapViewActivity.DATA_SERVERMANAGER_MESSENGER,
+		data.putParcelable(MapViewActivity.DATA_SERVERMANAGER_MESSENGER,
 				mService);
-		intent.putExtra(CopyOfMapViewActivity.BUNDLE_MAPVIEWACTIVITY, data);
+		intent.putExtra(MapViewActivity.BUNDLE_MAPVIEWACTIVITY, data);
 		startActivity(intent);
 	}
 
@@ -437,14 +437,14 @@ public class Emotion_BroadcastingActivity extends SherlockActivity implements
 
 	public void runMapActivity(View view) {
 		Intent intent = new Intent(this,
-				de.telekom.lab.emo.CopyOfMapViewActivity.class);
+				de.telekom.lab.emo.MapViewActivity.class);
 		Bundle data = new Bundle();
-		data.putParcelable(CopyOfMapViewActivity.DATA_SERVERMANAGER_MESSENGER,
+		data.putParcelable(MapViewActivity.DATA_SERVERMANAGER_MESSENGER,
 				mService);
-		data.putBoolean(CopyOfMapViewActivity.DATA_IS_DIRECT_RUN, view == null);
+		data.putBoolean(MapViewActivity.DATA_IS_DIRECT_RUN, view == null);
 		if (view != null)
-			data.putInt(CopyOfMapViewActivity.DATA_SMILE_TYPE, view.getId());
-		intent.putExtra(CopyOfMapViewActivity.BUNDLE_MAPVIEWACTIVITY, data);
+			data.putInt(MapViewActivity.DATA_SMILE_TYPE, view.getId());
+		intent.putExtra(MapViewActivity.BUNDLE_MAPVIEWACTIVITY, data);
 		startActivity(intent);
 	}
 

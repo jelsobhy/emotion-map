@@ -54,7 +54,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
-import de.telekom.lab.emo.CopyOfMapViewActivity;
+import de.telekom.lab.emo.MapViewActivity;
 import de.telekom.lab.emo.Emotions;
 import de.telekom.lab.emo.R;
 import de.telekom.lab.emo.control.ServerManager;
@@ -163,10 +163,10 @@ public class AugmentedRealityActivity extends FragmentActivity implements
 		serverEmosWithRange = null;
 		serverManager.getAllEmoRecords(inchandler);
 		Bundle data = getIntent().getBundleExtra(
-				CopyOfMapViewActivity.BUNDLE_MAPVIEWACTIVITY);
+				MapViewActivity.BUNDLE_MAPVIEWACTIVITY);
 		if ((data) != null) {
 			serverMessenger = data
-					.getParcelable(CopyOfMapViewActivity.DATA_SERVERMANAGER_MESSENGER);
+					.getParcelable(MapViewActivity.DATA_SERVERMANAGER_MESSENGER);
 			registerItSelf();
 		}
 

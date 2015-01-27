@@ -58,7 +58,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="de.telekom.lab.emo.CopyOfMapViewActivity"
+            android:name="de.telekom.lab.emo.MapViewActivity"
             android:configChanges="orientation"
             android:theme="@style/MapTitleBar" >
         </activity>

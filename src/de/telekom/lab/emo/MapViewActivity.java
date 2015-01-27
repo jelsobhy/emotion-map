@@ -1233,7 +1233,7 @@ public class MapViewActivity extends FragmentActivity implements
 		@Override
 		protected void onPreExecute() {
 
-			bladialog = new ProgressDialog(CopyOfMapViewActivity.this);
+			bladialog = new ProgressDialog(MapViewActivity.this);
 			bladialog.setCancelable(true);
 			bladialog.setMessage("Loading ...");
 			bladialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
@@ -1287,7 +1287,7 @@ public class MapViewActivity extends FragmentActivity implements
 
 		@Override
 		protected void onPostExecute(Integer result) {
-			final Resources res = CopyOfMapViewActivity.this.getResources();
+			final Resources res = MapViewActivity.this.getResources();
 
 			mapView.clear();
 			List<EmoRecord> emos = serverEmos;
