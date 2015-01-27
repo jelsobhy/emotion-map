@@ -7,7 +7,7 @@ The aim of the EmoMap-App is to show emotions of people on a Google Map, so that
 ## Fundamentals
 
 ### Android
-The EmoMap-App is developed with Android. An amazing guide for developers is available at http://developer.android.com/. The app is developed with Android 4.0.3 with the Eclipse Kepler 1 framework. You need to install the ADT plugin and download the Android and Google SDK from the Android SDK manager.
+The EmoMap-App is developed with Android. An amazing guide for developers is available at http://developer.android.com/. The app is developed with Android 4.0.3 with the Eclipse framework. You need to install the ADT plugin and download the Android and Google SDK from the Android SDK manager.
 
 ### Augmented Reality
 Another goal in this project was to vizualize the smileys in an augmented reality envi- ronment. The main class for this purpose is the AugmentedRealityActivity class.
@@ -43,7 +43,8 @@ There are two controller classes: LocationService and a Servermanager. The Locat
 There are two databases: The server database and the internal phone database. The phone database is used to visualize the personal smileys of the user. The server stores all smileys that were setted on the map. The classes that handle the database queries and operations are DatabaseOpenHelper, DBManager and Queries.
 
 ### Server
-All smileys are stored in a database on the EmoMap-server.Host: emo.qu.tu-berlin.de/Emo_Map
+All smileys are stored in a database on the EmoMap-server.
+Host: emo.qu.tu-berlin.de/Emo_Map
 
 
 ## Summary and Further Work
